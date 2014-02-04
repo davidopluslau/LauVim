@@ -103,9 +103,7 @@ autocmd BufEnter *html map <S-F8> :setfiletype django<CR>
 autocmd FileType python set ft=python.django " For SnipMate
 autocmd FileType html set ft=htmldjango.html " For SnipMate
 
-let @c = ':s/^/\/\//
-'
-let @u = ':s/\/\///
-'
+let @c = ':s/^/\/\//'
+let @u = ':s/\/\///'
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%81v.\+/
